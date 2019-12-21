@@ -67,60 +67,145 @@
       </div>
     </div>
         
-    <section>
-      <div>
+    <section class="about-area" id="about">
+      <div class="title">
         ABOUT
       </div>
-      <div>
-        <img src = "">
-        <div>NAME</div>
-        <div>JUNIOR DEVELOPER</div>
+      <div class="picture">
+        <img src = "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg">
+        <div class="name">NAME</div>
+        <div class="description">JUNIOR DEVELOPER</div>
       </div>
-      <div>
-        <div>
+      <div class="text">
+        <div class="intro">
           Hello, this is a developer who graduated from thinkful bootcamp.
         </div>
         <ul>
           <li>
-            <div>
+            <div class="info">
               <i class="far fa-calendar-alt"></i> 11st December, 1996
             </div>
           </li>
           <li>
-            <div>
+            <div class="info">
               <i class="fa fa-phone"></i> +1 773 931 0394
             </div>
           </li>
           <li>
-            <div>
+            <div class="info">
               <i class="fa fa-envelope"></i> blsck1024@gmail.com
             </div>
           </li>
           <li>
-            <div>
+            <div class="info">
               <i class="fa fa-home"></i> 387 Oak Trails Rd
             </div>
           </li>
         </ul>
-        <div>
+        <div class="sns">
           <a>
-            <i class=""></i>
+            <i class="fab fa-facebook-f"></i>
           </a>
           <a>
-            <i class=""></i>
+            <i class="fab fa-twiter"></i>
           </a>
           <a>
-            <i class=""></i>
+            <i class="fab fa-linkedin-in"></i>
           </a>
           <a>
-            <i class=""></i>
+            <i class="fab fa-google-plus-g"></i>
           </a>
           <a>
-            <i class=""></i>
+            <i class="fab fa-instagram"></i>
           </a>
         </div>
       </div>
     </section>
+
+    <section class="services-area" id="service">
+      <div class="title">
+        SERVICES
+      </div>
+      <div class="container">
+        <div class="item">
+          <div class="icon"><span><i class="fab fa-js"></i></span></div>
+          <div class="service">JAVASCRIPT</div>
+          <div class="content">JavaScript is a very powerful client-side scripting language. JavaScript is used mainly for enhancing the interaction of a user with the webpage.</div>
+        </div>
+        <div class="item">
+          <div class="icon"><span><i class="fab fa-html5"></i></span></div>
+          <div class="service">HTML</div>
+          <div class="content">HTML allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.</div>
+        </div>
+        <div class="item">
+          <div class="icon"><span><i class="fab fa-css3-alt"></i></span></div>
+          <div class="service">CSS</div>
+          <div class="content">CSS allows you to create great-looking web pages</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-area" id="portfolio">
+      <div class="title">
+        PORTFOLIO
+      </div>
+      <div class="filter">
+        <ul class="list">
+          <li class="listItem" id="all">
+            ALL
+          </li>
+          <li class="listItem" id="uiux">
+            UI/UX
+          </li>
+          <li class="listItem" id="java">
+            JAVA
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="filterItem uiux java">
+          <div class="image">
+            <div class="overlay"><i class="far fa-image"></i></div>
+            <img src="portfolioimg/BookMark.png">
+          </div>
+          <div class="main">
+            Main Title
+          </div>
+          <div class="sub">
+            Sub Title
+          </div>
+          <div class="text">
+            Details of Portfolio
+          </div>
+        </div>
+        <div class="filterItem uiux java">
+          <div class="image">
+            <div class="overlay"><i class="far fa-image"></i></div>
+            <img src="portfolioimg/QuizApp.png">
+          </div>
+          <div class="main">
+            Main Title
+          </div>
+          <div class="sub">
+            Sub Title
+          </div>
+          <div class="text">
+            Details of Portfolio
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="portfolioModal" class="modal">
+      <span class="close" id="modalClose">&times;</span> <!--6-2 14분 20초부터-->
+      <div class="container">
+        <img id="modalImage">
+        <div id="modalMain" class="modal-main"></div>
+        <div id="modalSub" class="modal-sub"></div>
+        <div id="modalText" class="modal-text"></div>
+      </div>
+    </div>
+
     <!--4분 50초부터 보면됨-->
 
 

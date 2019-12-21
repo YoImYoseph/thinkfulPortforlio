@@ -79,3 +79,5 @@ document.getElementById('firstDot').addEventListener('click', crrentImageSlide.b
 document.getElementById('secondDot').addEventListener('click', crrentImageSlide.bind(null, 2));
 document.getElementById('thirdDot').addEventListener('click', crrentImageSlide.bind(null, 3));
 document.getElementById('forthDot').addEventListener('click', crrentImageSlide.bind(null, 4));
+
+//6-3 처음부터 보면됨
