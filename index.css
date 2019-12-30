@@ -119,7 +119,7 @@ ul {
 }
 
 .header-area > .navbar > .navbar-menu.show {
-  height: 200px;
+  height: 150px;
 }
 
 .header-area > .navbar > .navbar-menu > .nav-item {
@@ -375,18 +375,18 @@ section {
   background-image: linear-gradient(to right, royalblue, aquamarine);
 }
 
-/* SERVICES AREA */
+/* SKILLS AREA */
 
-.services-area {
+.skills-area {
   height: auto;
   background-color: #f9f9ff;
 }
 
-.services-area > .container {
+.skills-area > .container {
   text-align: center;
 }
 
-.services-area > .container > .item {
+.skills-area > .container > .item {
   height: auto;
   background-color: white;
   padding: 20px;
@@ -395,28 +395,28 @@ section {
   transition: all 0.5s ease;
 }
 
-.services-area > .container > .item:hover {
+.skills-area > .container > .item:hover {
   transform: scale(1.015);
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.services-area> .container > .item > .icon {
+.skills-area> .container > .item > .icon {
   padding: 10px 0;
   display: inline-block;
 }
 
-.services-area> .container > .item > .icon > span > i {
+.skills-area> .container > .item > .icon > span > i {
   font-size: 48px;
   color: #aaa;
 }
 
-.services-area> .container > .item > .service {
+.skills-area> .container > .item > .skills {
   font-size: 32px;
   font-weight: bold;
   padding: 10px 0;
 }
 
-.services-area> .container > .item > .content {
+.skills-area> .container > .item > .content {
   font-size: 16px;
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 1.5px;
@@ -513,8 +513,12 @@ section {
 }
 
 .portfolio-area > .container > .filterItem > .sub {
-	font-size: 16px;
-	color: #777;
+  color: #777;
+}
+
+.portfolio-area > .container > .filterItem > .sub > .subLink > .subLinkGo {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .portfolio-area > .container > .filterItem > .text {
@@ -586,10 +590,31 @@ section {
 	color: #bbb;
 }
 
+/* FOOTER AREA */
+.footer-area {
+  height: auto;
+  text-align: center;
+  background-color: black;
+}
 
+.footer-area * {
+  color: white;
+}
 
+.footer-area > .sns > .item {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
 
+.footer-area > .sns > .item > i {
+  font-size: 24px;
+}
 
+.footer-area > .info > p {
+  font-size: 16px;
+  padding: 10px 0;;
+}
 
 
 
